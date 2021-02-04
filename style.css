@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: #FFF05A;
+  justify-content: space-between;
+  padding: 0 10%;
+  align-items: center;
+}
+
+.header img {
+  width: 60px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.header div {
+  width: 300px;
+  display: flex;
+}
