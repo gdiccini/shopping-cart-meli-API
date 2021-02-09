@@ -3,21 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cc1de53d71.js" crossorigin="anonymous"></script>
     <title>Shopping Cart</title>
   </head>
   <body>
     <header class="header">
-      <img src="cart-icon.png" alt="">
-      <div>
-        <input type="text">
-          <img src="search-icon.png" class="search-btn">
+      <div class="header-content">
+        <section>
+          <i class="fas fa-gifts fa-3x" style="color: #339af0; margin-right: 20px;"></i>
+          <h1>Gift Shopp</h1>
+        </section>
+        <section class="search-box">
+          <input type="text" class="search-field" placeholder="Buscar produtos, marcas e muito mais...">
+          <i class="fas fa-search fa-2x"></i>
+        </section>
       </div>
-      <h1>Shopping</h1>
     </header>
-
-
-
+    <main>
+      <section class="products">
+        <img src="produtos.png" class="products-image">
+        <div class="items">
+          <img src="melhoresprecos.png" class="initial-img">
+        </div>
+      </section>
+      <section class="cart">
+        <div class="cart-buttons">
+          <button class="clear-cart">Limpar Carrinho</button>
+          <i class="fas fa-shopping-cart fa-3x"></i>
+        </div>
+        <p class="total">Total: $0.00</p>
+        <div class="cart-products">
+          <ul class="itens-list"></ul>
+        </div>
+      </section>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
